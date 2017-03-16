@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bjc.xutils3demo.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:id="@+id/bt_zj"
+        android:layout_height="60dp"
+        android:text="注解模块" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="注解模块联网"
+        android:id="@+id/bt_zj_lw"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="单图片"
+        android:id="@+id/bt_dt"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="列表图片"
+        android:id="@+id/bt_lt"/>
+
+
+</LinearLayout>
